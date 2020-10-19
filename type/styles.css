@@ -33,7 +33,7 @@ h2 {
     font-family: 'Helvetica';
     margin: 0;
     right: 1.8em;
-    bottom: 0.9em;
+    bottom: 0.3em;
     text-shadow: 10px 10px blue;
 
 }
@@ -44,8 +44,7 @@ h3 {
     position: absolute;
     font-family: 'Helvetica';
     margin: 0;
-    right: 2.3em;
-    bottom: 0.5em;
+    right: 2.24em;
     text-shadow: 10px 10px red;
 }
 
@@ -56,7 +55,7 @@ h4 {
     font-family: 'Helvetica';
     margin: 0em;
     right: 1.95em;
-    bottom: 0.10em;
+    top: 1.2em;
     text-shadow: 10px 10px yellow;
 }
 
@@ -80,7 +79,7 @@ h4 {
 .alphabet {
 	font-family: 'Helvetica', serif;
 	font-weight: bold;
-	color: yellow;
+	color: magenta;
 	font-size: 2em;
 	position: relative;
     margin: 0.2em;
@@ -103,14 +102,13 @@ h4 {
 	font-family: 'Helvetica', sans-serif;
 	font-weight: bolder;
 	color: white;
-	font-size: 20em;
+	font-size: 10em;
 	position: absolute;
-	
-  	grid-area: text;
-  	text-shadow: 3pt 3pt 0 red, -3pt -3pt 0 cyan;#
-  	left: 2em;
+	grid-area: text;
+  	text-shadow: 3pt 3pt 0 red, -3pt -3pt 0 cyan;
   	transform: skewX(-10deg);
   	top: 0em;
+  	right: 2em;
 }
 
 .lyrics2 {
